@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+  }
+
+  #Doing, #Done {
+    margin-top: 0;
+}
+  h1 {
+    font-size: 20px;
+    text-align: left;
+    font-weight:bolder;
+    color: rgb(156, 4, 100);
+    background-color: rgb(185, 234, 248);
+    padding: 20px;
+  }
+  h2{
+    padding-bottom: 20px;
+    margin-left: 30px;
+    padding-top: 20px;
+  }
+
+  #To-Do {
+    font-size: 15px;
+    color: rgb(130, 1, 82);
+    padding-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: #d3dfe8;
+    width: 400px;
+  }
+
+  #Doing {
+    font-size: 15px;
+    color: rgb(130, 1, 82);
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: #d3dfe8;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+    
+  }
+
+  #Done {
+    font-size: 15px;
+    color: rgb(130, 1, 82);
+    background-color: #d3dfe8;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+    
+  }
+
+  
+  input[type="text"] {
+    background-color: #dae2e9;
+    padding-left: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    height: 100px;
+    font-size: 15px;
+    display: flex;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 6px #93bbdf;
+    
+   
+  }
+
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+
+  .lista {
+    list-style: none;
+    padding: 0;
+  }
+
+  .lista h2 {
+    margin-top: 20px;
+  }
+
+.Seccion{
+    display: flex;
+    flex-direction: row;
+}
+
+.Doing-Done {
+    margin-top: 0;
+}
+
+  .task {
+    padding: 8px;
+    margin: 5px 0;
+    background: #f0f0f0;
+    width: 330px;
+    border-radius: 15px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+    font-size: 15px;
+  }
+
+  .task button1 {
+    margin-bottom: 5px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(181, 5, 99);  
+    padding-left: 11px;
+    padding-top: 5px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+
+  .task button2 {
+    margin-left: 5px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(16, 0, 116);  
+    padding-left: 9px;
+    padding-top: 7px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+   
+  }
+  .task button3 {
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 7px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+   
+  }
+
+  line {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .task button1:hover {
+    background: rgb(235, 47, 148);
+  }
+
+  .task button2:hover {
+    background: rgb(76, 58, 194);
+  }
+  .task button3:hover {
+    background: #dddcdcad;
+  }
+
+.task-text {
+    margin: 20px;
+}
+
+  #boton-crear{
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(5, 182, 182);
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+  }
+
+  #boton-crear:hover{
+    background-color: rgb(21, 70, 167);
+  }
